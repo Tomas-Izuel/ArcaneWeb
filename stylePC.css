@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+  }
+
+  html{
+    font-family: 'Copperplate Gothic Light', sans-serif;
+    font-size: 5rem;
+    background-color: black;
+  }
+
+  header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header .back{
+      width: 100vw;
+      height: 100vh;
+      background-image: url(./media/headerBack2blur.jpg);
+      background-position: center;
+  }
+
+  header .front{
+      position:absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  header .front .contain{
+      width: 35vw;
+      z-index: 100;
+      margin-right: 60%;
+  }
+
+  header .front .contain .logo{
+      background-color: transparent;
+      width: 35vw;
+  }
+
+  header .front .contain .marcas{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 35vw;
+  }
+
+  header .front .contain .marcas img{
+      width: 7.5vw;
+  }
+
+  header .front .imagen{
+      width: 50vw;
+      position: absolute;
+      margin-left: 100%;
+      box-shadow: 5px 5px 20px black;
+  }
+
+.animado{
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.resumen{
+    background-image: url(./media/resumenBack.jpg);
+    background-position: center;
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.resumen h1{
+    padding-top: 120px;
+    color: #ffffff;
+    font-size: 3vw;
+    padding-bottom: 70px;
+}
+
+.resumen p{
+    color: #ffffff;
+    text-align: center;
+    padding-right: 230px;
+    padding-left: 230px;
+}
+
+.personajes .jinx{
+    display: flex;
+    align-items: center;
+}
+
+.personajes .jinx img{
+    width: 60vw;
+}
+
+.personajes .jinx div{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40vw;
+    margin-left: 45vw;
+}
+
+.personajes .jinx div img{
+    width: 20vw;
+    padding-bottom: 50px;
+}
+
+.personajes .jinx div p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.2rem;
+}
+
+.personajes .vi{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.personajes .vi img{
+    width: 60vw;
+}
+
+.personajes .vi div{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40vw;
+    margin-right: 55vw;
+}
+
+.personajes .vi div img{
+    width: 17vw;
+    padding-bottom: 50px;
+}
+
+.personajes .vi div p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.2rem;
+}
+
+footer{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer p{
+    color: #ffffff;
+}
+
+footer div a img{
+    width: 7.5vw;
+}
